@@ -1,0 +1,15 @@
+{
+  "name": "WhatsApp_Back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Medo",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
