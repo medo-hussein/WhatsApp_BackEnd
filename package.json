@@ -1,15 +1,26 @@
 {
-  "name": "WhatsApp_Back",
+  "name": "whatsapp_backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "homepage": "https://github.com/medo-hussein/WhatsApp_BackEnd#readme",
+  "bugs": {
+    "url": "https://github.com/medo-hussein/WhatsApp_BackEnd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medo-hussein/WhatsApp_BackEnd.git"
+  },
+  "license": "ISC",
   "author": "Medo",
-  "license": "MIT",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
